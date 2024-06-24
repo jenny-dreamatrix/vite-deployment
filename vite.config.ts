@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/vite-deployment/',
+  base: '/vite-deployment/', // der projektname in github !
   build: {
     rollupOptions: {
       input: {
